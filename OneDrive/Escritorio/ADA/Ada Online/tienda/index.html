@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="principio">
+        <div class="contenedor-header">
+            <div class="contenedor-logo">
+                <img src="imagenes/zzzz_aleph.jpg" alt="imagen-logo">
+
+                <p>Libreria Aleph</p>
+            </div>
+            <div class="botones-header">
+                <button type="button" class="carrito-boton" aria-expanded="false" aria-controls="cart"></button>
+                <i class="fas fa-shopping-cart" aria-hidden="true"> 
+               
+            </i> Carrito ( <span class="cart-qty" aria-hidden="true">0</span> items)
+                </button>
+
+            </div>
+
+        </div>
+        <div class="banner">
+
+            <h1 class="nombre-seccion">Libreria Online</h1>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <section class="filters" aria-labelledby="filters-heading" id="filters">
+                <button type="button" class="close-filters-btn" aria-label="Cerrar filtros">
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+                <div class="filter-container">
+                    <div class="filters-heading-container">
+                        <h2 class="filters-heading">FILTROS</h2>
+                        <button type="button" class="filters-clear-btn">
+                    <i class="fas fa-trash-alt" aria-hidden="true"></i> Limpiar
+                  </button>
+                    </div>
+                </div>
+                <div class="filter-container">
+                    <h3 class="filter-name">BÚSQUEDA</h3>
+                    <label class="search-container" aria-label="Búsqueda">
+                  <input
+                    type="text"
+                    class="search-input"
+                    name="Búsqueda"
+                    aria-controls="product-list"
+                    placeholder="Buscar productos"
+                  />
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </label>
+                </div>
+                <div class="filter-container">
+                    <h3 class="filter-name">CATEGORÍA</h3>
+                    <label>
+                  <input
+                    type="checkbox"
+                    value="Poesia"
+                    class="filter category-filter"
+                  />
+                  CONSOLAS
+                </label>
+                    <label>
+                  <input
+                    type="checkbox"
+                    value="Novela"
+                    class="filter category-filter"
+                  />
+                  NOTEBOOKS
+                </label>
+                    <label>
+                  <input
+                    type="checkbox"
+                    value="Biografia"
+                    class="filter category-filter"
+                  />
+                  CÁMARAS
+                </label>
+                    <label>
+                  <input
+                    type="checkbox"
+                    value="Historia"
+                    class="filter category-filter"
+                  />
+                  CELULARES
+                </label>
+                    <label>
+                  <input
+                    type="checkbox"
+                    value="Comedia"
+                    class="filter category-filter"
+                  />
+                  ACCESORIOS
+                </label>
+                </div>
+            </section>
+        </aside>
+
+        <div class="primeracajacontenedora">
+
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4317 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                              Comprar
+                            </button>
+                    </div>
+
+                </div>
+            </article>
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4325 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                              Comprar
+                            </button>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4317 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                              Comprar
+                            </button>
+                    </div>
+
+                </div>
+            </article>
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4317 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                              Comprar
+                            </button>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+
+
+        <div class="otracajacontenedora">
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4330 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                          Comprar
+                        </button>
+                    </div>
+
+                </div>
+            </article>
+            <article class="product">
+
+                <img src="imagenes/_MG_4317 (1).jpg" alt="producto-imagen">
+
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                          Comprar
+                        </button>
+                    </div>
+
+                </div>
+            </article>
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4334 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                          Comprar
+                        </button>
+                    </div>
+
+                </div>
+            </article>
+            <article class="product">
+                <div class="imagen-libro">
+                    <img src="imagenes/_MG_4333 (1).jpg" alt="producto-imagen">
+                </div>
+                <div class="descripcion-producto">
+                    <h2 class="Nombre-libro">Poesia Completa</h2>
+                    <h3 class="Autor-libro"> Alejandra Pizarnik</h3>
+                    <p class="precio-libro"> $350</p>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                    <div class="boton-comprar">
+                        <button type="button" class="boton-agregar-carrito">
+                          Comprar
+                        </button>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+        </article>
+
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
